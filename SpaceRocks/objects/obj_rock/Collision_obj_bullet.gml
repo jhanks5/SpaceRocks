@@ -2,9 +2,10 @@
 
 // If powerup_time is less than zero
 // Spawn a powerup, and reset timer
-// This will spawn a spread powerup every 20 seconds
+// This will spawn a random powerup every 20 seconds
+// Only when you destroy a rock
 if (obj_game.powerup_time < 0) {
-	var _obj = choose(obj_powerup_ghost);
+	var _obj = choose(obj_powerup_ghost, obj_powerup_spread);
 	instance_create_layer(x,y,"Instances",_obj);
 	obj_game.powerup_time = 20;
 }
