@@ -1,4 +1,6 @@
-/* Destroy ship if it collides with rock */
+if (powerup == 2) exit;
+
+// Destroy ship if it collides with rock
 effect_create_above(ef_firework, x, y, 1, c_white);
 instance_destroy();
 
