@@ -1,4 +1,8 @@
 # Space Rocks
+
+![game-demo](images/Showcase.gif)
+
+![help-button](images/HelpButton.gif)
  
 This project is intended to be run in GameMaker Studio. It is the result of following the tutorials for "Space Rocks" for a beginner to learn the tools.
 
